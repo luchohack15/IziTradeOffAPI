@@ -37,6 +37,8 @@ namespace IziTradeOff.API
             //Se agrega referencia del middleware para captura de excepciones
             services.AddTransient<ErrorMiddleware>();
 
+            services.AddValidatorsFromAssembly(typeof(Service.Validator.TraductorValidator).Assembly);
+
             //Configuracion del dapper
             DapperConfig.Config(Configuration, services);
 

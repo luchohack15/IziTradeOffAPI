@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace IziTradeOff.API.Controllers.Base
+namespace IziTradeOff.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ControllerBaseMediator : ControllerBase
+    public class ApiControllerBase : ControllerBase
     {
     }
 }

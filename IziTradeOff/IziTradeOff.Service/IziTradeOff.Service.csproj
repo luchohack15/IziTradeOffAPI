@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\IziTradeOff.Application\IziTradeOff.Application.csproj" />
     <ProjectReference Include="..\IziTradeOff.Persistence\IziTradeOff.Persistence.csproj" />
   </ItemGroup>
