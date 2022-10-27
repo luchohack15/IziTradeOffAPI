@@ -15,12 +15,13 @@ namespace IziTradeOff.API.Configuration
         {
             //Services
             services.AddScoped<ITraduccionService, TraduccionService>();
-
+           
             //Querys
             services.AddScoped<ITraductorQuery, TraduccionQuery>();
-
+            services.AddScoped<ILoginQuery, LoginQuery>();
             //Commands
             services.AddScoped<ITraductorCommand, TraduccionCommand>();
+            services.AddScoped<ILoginCommand, LoginCommand>();
         }
     }
 }

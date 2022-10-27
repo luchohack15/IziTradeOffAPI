@@ -15,6 +15,7 @@ namespace IziTradeOff.Persistence.Connection
         }
         //Lista de tablas
         public virtual DbSet<Traduccion> Traduccion { get; set; }
+       
 
         /// <summary>
         /// Sobreescritura del model creating
