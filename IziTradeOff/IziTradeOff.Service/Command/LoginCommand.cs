@@ -54,6 +54,7 @@ namespace IziTradeOff.Service.Command
                     Email = _Usuario.Email,
                     Imagen = null
                 };
+
             }
             throw new ExceptionBase(HttpStatusCode.Unauthorized);
         }
